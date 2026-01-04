@@ -1,0 +1,5 @@
+# Test that kai --help works
+kai --help
+stdout 'A longer description'
+! stderr .
+! stderr 'Error'

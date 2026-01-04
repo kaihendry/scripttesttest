@@ -1,0 +1,3 @@
+# Test that kai command runs without error
+kai
+! stderr 'Error'

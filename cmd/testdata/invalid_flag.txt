@@ -1,0 +1,3 @@
+# Test that invalid flags are rejected
+! kai --invalid-flag-that-does-not-exist
+stderr .
